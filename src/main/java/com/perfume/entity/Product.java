@@ -3,12 +3,10 @@ package com.perfume.entity;
 import com.nmhung.anotation.QueryField;
 import com.nmhung.anotation.TableName;
 import com.perfume.dto.search.ProductSearch;
-import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.List;
 
